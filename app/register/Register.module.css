@@ -1,0 +1,24 @@
+.gradientText {
+  background-image: linear-gradient(
+    90deg,
+    rgba(36, 9, 0, 0.7596288515406162) 0%,
+    rgba(36, 36, 0, 0.510329131652661) 22%,
+    rgba(0, 10, 36, 1) 46%,
+    rgba(36, 1, 1, 1) 65%,
+    rgba(36, 0, 0, 1) 78%,
+    rgba(36, 0, 0, 1) 87%
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.container {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
