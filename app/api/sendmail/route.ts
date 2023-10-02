@@ -7,8 +7,9 @@ const transport = nodemailer.createTransport(
     host: "smtp.gmail.com",
     port: 465,
     auth: {
-      user: "su0000676@gmail.com", // Your email
-      pass: "ktva pjst uksi ucbe", // Your password or app-specific password
+      user: process.env.EMAIL_USERNAME, // Your email
+      pass: process.env.EMAIL_PASSWORD,
+      // pass: "ktva pjst uksi ucbe", // Your password or app-specific password
     },
   })
 );
